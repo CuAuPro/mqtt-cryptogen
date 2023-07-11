@@ -18,7 +18,7 @@ This tool is primary intended to use for MQTTS certificate generation (.p12 from
 cryptography==40.0.2
 ```
 
-# Intermediate (cloud) certificate generation <a id='self_signed_generation'></a>
+# Self-signed certificate generation <a id='self_signed_generation'></a>
 
 To generate self-signed certificates, you will need to use the `gen_root_cert.py` script with a configuration file. Before running this script, make sure you have all the dependencies installed.
 
