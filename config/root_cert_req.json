@@ -1,0 +1,12 @@
+{
+    "store_folder":         "./",
+    "new_passcode":         "<passcode_of_root_cert>",
+    "validity_period":      "10 years",
+
+    "country":              "<country>",
+    "state":                "<state>",
+    "locality":             "<locality>",
+    "organization":         "<organization>",
+    "organizational_unit":  "<organizational_unit>",
+    "common_name":          "mqtt.eu"
+}

@@ -1,0 +1,35 @@
+{
+    "store_folder":         "generated_certificates/",
+    "signing_cert_path":    "<path_to_master_cert>",
+    "passcode":             "<passcode_of_root_cert>",
+
+    "clients": [
+        {
+            "new_alias":            "<client1_alias>",
+            "validity_period":      "10 years",
+            "new_passcode":         "123456",
+            "country":              "<country>",
+            "state":                "<state>",
+            "locality":             "<locality>",
+            "organization":         "<organization>",
+            "organizational_unit":  "<organizational_unit>",
+            "dns_names":            ["<SANdns1>", "<SANdns2>"],
+            "ipv4_addresses":       ["<SANip1>", "<SANip2>"],
+            "ipv6_addresses":       ["<SANip3>", "<SANip4>"]
+        },
+        {
+            "new_alias":            "<client2_alias>",
+            "validity_period":      "10 years",
+            "new_passcode":         "<new_passcode>",
+            "country":              "<country>",
+            "state":                "<state>",
+            "locality":             "<locality>",
+            "organization":         "<organization>",
+            "organizational_unit":  "<organizational_unit>",
+            "dns_names":            ["<SANdns1>", "<SANdns2>"],
+            "ipv4_addresses":       ["<SANip1>", "<SANip2>"],
+            "ipv6_addresses":       ["<SANip3>", "<SANip4>"]
+        }
+    ]
+
+}

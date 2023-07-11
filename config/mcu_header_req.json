@@ -1,0 +1,13 @@
+{
+    "clients": [
+        {
+            "path":     "generated_certificates/",
+            "alias":    "<client1_alias>"
+        },
+        {
+            "path":     "generated_certificates/",
+            "alias":    "<client2_alias>"
+        }
+    ]
+
+}

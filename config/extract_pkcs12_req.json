@@ -1,0 +1,25 @@
+{
+    "clients": [
+        {
+            "path":     "generated_certificates/",
+            "alias":    "<client1_alias>",
+            "passcode": "<passcode>",
+            "new_passcode": "<new_passcode>",
+            "ca":       true,
+            "crt":      true,
+            "key":      true
+
+        },
+        {
+            "path":     "generated_certificates/",
+            "alias":    "<client2_alias>",
+            "passcode": "<passcode>",
+            "new_passcode": "<new_passcode>",
+            "ca":       true,
+            "crt":      true,
+            "key":      true
+
+        }
+    ]
+
+}

@@ -1,0 +1,5 @@
+**/__pycache__
+generated_certificates/*/
+config_private/
+old/
+**.p12
